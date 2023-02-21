@@ -1,5 +1,9 @@
 # Datadog changelog
 
+## 3.10.10
+
+* Add `datadog.securityAgent.runtime.remoteConfiguration.enabled` parameter to enable remote configuration for CWS.
+
 ## 3.10.9
 
 * Default `Agent` and `Cluster-Agent` image tags to `7.42.2`.

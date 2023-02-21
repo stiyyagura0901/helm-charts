@@ -671,6 +671,10 @@ datadog:
         # datadog.securityAgent.runtime.network.enabled -- Set to true to enable the collection of CWS network events
         enabled: false
 
+      remoteConfiguration:
+        # datadog.securityAgent.runtime.remoteConfiguration.enabled -- Set to true to enable remote configuration for Cloud Workload Security (CWS)
+        enabled: false
+
       activityDump:
         # datadog.securityAgent.runtime.activityDump.enabled -- Set to true to enable the collection of CWS activity dumps
         enabled: false

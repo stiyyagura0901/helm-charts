@@ -53,6 +53,8 @@ data:
         enabled: {{ $.Values.datadog.securityAgent.runtime.syscallMonitor.enabled }}
       network:
         enabled: {{ $.Values.datadog.securityAgent.runtime.network.enabled }}
+      remote_configuration:
+        enabled: {{ $.Values.datadog.securityAgent.runtime.remoteConfiguration.enabled }}
 {{- if .Values.datadog.securityAgent.runtime.activityDump.enabled }}
       activity_dump:
         enabled: true
